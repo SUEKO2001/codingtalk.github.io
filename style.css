@@ -1,0 +1,199 @@
+/* googlefont */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Poppins:wght@300;600;700&display=swap');
+
+
+
+*{
+    padding: 0; margin: 0;
+}
+
+body{
+    background-color: green;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    
+}
+img.udacoding{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 280px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+h2{
+    padding-top: 20px;
+	color:blue;
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	width: 390px;
+	margin: auto;
+	margin-bottom: 10px;
+    margin-top: 10px;
+}
+form {
+    font-family: 'Open Sans', sans-serif;
+    width: 380px;
+    height: 680px;
+    margin: auto;
+    background-color: #f1f1f1;
+    border-radius: 20px;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 15px;
+    border-radius: 5px;
+}
+label{
+    color: #50626C;
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+   
+}
+button {
+    background-color: blue;
+    font-size: medium;
+    color: white;
+    padding: 10px 16px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.img-container {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 30%;
+    border-radius: 50%;
+
+}
+
+.container {
+    padding: 16px;
+}
+
+p.small{
+    text-align: center;
+    padding: 10px;
+    color: #50626C;
+   
+}
+/* Change styles for span and cancel button on extra small screens */
+@media only screen and (max-width: 100px) {
+    /* For mobile phones: */
+    .login-form, .img-container, .socmed-login .socmed-btn{
+      width: 100%;
+    }
+  }
+
+
+form i{
+    position: absolute;
+    font-size: 20px;
+    color: grey;
+    margin: 15px 0 0 -45px;
+   }
+   i.fa-envelope{
+    margin: 18px -30px;
+   }
+   i.fa-lock{
+    margin: 18px -30px;
+   }
+   
+
+
+   /* Login Menggunakan Sosial Media */
+
+   .separator {
+    margin: 20px 0;
+    border-top: 1px solid #CCCCCC;
+    position: relative;
+}
+
+   .separator-text {
+    display: block;
+    position: absolute;
+    top: -11px;
+    left: 50%;
+    margin-left: -22px;
+    padding: 0px 10px;
+    background:#f1f1f1;
+    color: #8a8a8a;
+}
+
+.fa{
+    margin-left: -20px;
+}
+
+/* sosial media */
+.fa-brands{
+    margin-top: 2px;
+    margin-left: -30px;
+    color: #f1f1f1; 
+   }
+
+.socmed-login .socmed-btn {
+    display: block;
+    margin: 5px;
+    margin-left: 15px; 
+    margin-right: 15px;  
+    border-radius: 5px;
+    padding: 10px 25px;
+    color: white;
+    text-align: left;
+    text-decoration: none;
+    
+}
+
+.fa-facebook{
+    background-color: darkblue;
+    margin-right: 10px;
+    
+    }
+    a.fa-facebook:hover{
+        background-color: rgb(17, 17, 202);
+    }
+
+.fa-google{
+    background-color: red;
+    margin-right: 10px;
+}
+
+    a.fa-google:hover{
+        background-color: rgb(223, 57, 57);
+    }
+
+.fa-github{
+    background-color: black;
+    margin-right: 10px;
+}
+
+    a.fa-github:hover{
+        background-color: rgb(23, 23, 26);
+    }
+
+/* link active ganti warna */
+/* a :link, a:visited {
+    background-color: darkblue; 
+  }
+  
+  a:hover, a:active {
+    color: #CCCCCC;
+  } */
+
+
